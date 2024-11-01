@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+.wp-share-simple-box{
+	display:table;
+     height:auto;
+     width:100%;
+     position:relative;
+     margin : 0 0 5px 0;
+}
+
+.wp-share-simple-buttons, .wp-share-simple-count {
+	float:left;
+	display:inline;
+}
+.wp-share-simple-count {
+    font-size:36px;
+    font-family: Oswald, Arial, Sans-serif;
+    font-weight:bold;
+    color:#999;
+    position:absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}    
+.wp-share-simple-count span {
+    font-size:12px;
+}
+
+.wp-share-simple-facebook:before {
+    background: url("../assets/facebook.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 10px;
+    position: absolute;
+    top: 18%;
+    width: 30px;
+    cursor:pointer;
+}
+
+.wp-share-simple-facebook
+{
+  margin:2px;
+  margin-bottom:5px;
+  background:none repeat scroll 0 0 #3B5997;
+  -webkit-transform:translate(0px, 0px);
+  -moz-transform:translate(0px, 0px);
+  -ms-transform:translate(0px, 0px);
+  -o-transform:translate(0px, 0px);
+  transform:translate(0px, 0px);
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -ms-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  transition:all 0.2s ease;
+  border-radius:6px;
+  color:#FFFFFF;
+  display:inline-table;
+  font-family: Oswald, Arial, Sans-serif;
+  font-size:16px;
+  padding:10px 15px 10px 40px;
+  height:40px;
+  position:relative;
+  text-decoration:none;
+  -webkit-box-shadow:#293F63 0 6px 0;
+  -moz-box-shadow:#293F63 0 6px 0;
+  box-shadow:#293F63 0 6px 0;
+  width:auto;
+  cursor:pointer;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.wp-share-simple-twitter:before {
+    background: url("../assets/twitter.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 10px;
+    position: absolute;
+    top: 18%;
+    width: 30px;
+    cursor:pointer;
+}
+.wp-share-simple-twitter {
+    margin:2px;
+    background: none repeat scroll 0 0 #2ca9e1;
+    -webkit-transform:translate(0px, 0px);
+    -moz-transform:translate(0px, 0px);
+    -ms-transform:translate(0px, 0px);
+    -o-transform:translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -ms-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    transition: all 0.2s ease 0s;
+    -webkit-box-shadow:#2695bc 0 6px 0;
+    -moz-box-shadow:#2695bc 0 6px 0;
+    box-shadow: 0 6px 0 #2695bc;
+    border-radius: 6px;
+    color: #ffffff;
+    display: inline-table;
+    font-family:Oswald, Arial, Sans-serif;
+    font-size: 16px;
+    padding:10px 15px 10px 40px;
+    position: relative;
+    text-decoration: none;
+    width:auto;
+    height:40px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor:pointer;
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+
+.wp-share-simple-box{
+	display:table;
+     height:auto;
+     width:100%;
+     position:relative;
+     margin : 0 0 5px 0;
+}
+.wp-share-simple-buttons, .wp-share-simple-count {
+	float:left;
+	display:inline;
+}
+.wp-share-simple-buttons {
+	width:85%;
+}
+.wp-share-simple-count {
+    font-size:36px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:bold;
+    color:#999;
+    position:absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}    
+.wp-share-simple-count span {
+    font-size:12px;
+}
+.wp-share-simple-facebook
+{
+  margin:2px;
+  margin-bottom:5px;
+  background:none repeat scroll 0 0 #3B5997;
+  -webkit-transform:translate(0px, 0px);
+  -moz-transform:translate(0px, 0px);
+  -ms-transform:translate(0px, 0px);
+  -o-transform:translate(0px, 0px);
+  transform:translate(0px, 0px);
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -ms-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  transition:all 0.2s ease;
+  border-radius:1px;
+  color:#FFFFFF;
+  display:inline-table;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;
+  padding:10px 15px 10px 40px;
+  position:relative;
+  width:auto;
+  height:40px;
+  cursor:pointer;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.wp-share-simple-facebook:before {
+    background: url("../assets/facebook.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 10px;
+    position: absolute;
+    top: 18%;
+    width: 30px;
+    cursor:pointer;
+}
+.wp-share-simple-twitter:before {
+    background: url("../assets/twitter.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 10px;
+    position: absolute;
+    top: 18%;
+    width: 30px;
+    cursor:pointer;
+}
+.wp-share-simple-twitter {
+    margin:2px;
+    background: none repeat scroll 0 0 #2ca9e1;
+    -webkit-transform:translate(0px, 0px);
+    -moz-transform:translate(0px, 0px);
+    -ms-transform:translate(0px, 0px);
+    -o-transform:translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -ms-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    transition: all 0.2s ease 0s;
+    border-radius: 1px;
+    color: #ffffff;
+    display: inline-table;
+    font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    height:40px;
+    padding:10px 15px 10px 40px;
+    position: relative;
+    text-decoration: none;
+    width:auto;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor:pointer;
+}
